@@ -40,6 +40,8 @@ body {
     box-sizing: border-box;
     margin: 0 auto;
     color: var(--text-color);
+    max-width: 500px;
+    min-width: 380px;
 }
 
 /* 메인페이지 */
@@ -153,8 +155,8 @@ body {
 #invitation .invitation-text {
     height: 50vh;
     box-sizing: border-box;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #invitation p {
@@ -182,6 +184,7 @@ body {
 #invitation .wedding-day img {
     width: 100%;
     height: calc(30vh - 35px);
+    box-sizing: border-box;
     margin: 0 auto;
 }
 
