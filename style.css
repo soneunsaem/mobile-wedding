@@ -346,22 +346,25 @@ body {
 /*준비화면*/
 .splash-screen.on {
     position: fixed;
-    left: 0;
+    /* left: 0; */
     top: 0;
     z-index: 999;
     max-width: 500px;
     min-width: 380px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    background-color: var(--main-bg-color1);
 }
 .splash-screen {
     display: none;
 }
 
 .splash-screen img {
-    width: 100%;
+    min-width: 380px;
+    max-width: 500px;
+    width: 100vw;
     height: 100%;
 }
